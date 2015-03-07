@@ -1,0 +1,90 @@
+.*
+{display: none;  }
+
+body{
+	padding: 5px 15px;
+	background-image:url('../img/deadmau5.gif'), url('../img/onda.png');
+	background-position: top, center;	
+	background-repeat: no-repeat, repeat;
+	color: black;
+}
+
+header {
+background: rgba(57, 211, 32, 0.8);
+border: 2px solid rgb(8, 8, 6);
+border-radius: 10px 45px;
+box-shadow: inset 0px 0px 30px rgb(10, 12, 13), 10px 10px 20px rgb(77, 199, 143);
+color: rgb(235, 242, 242);
+margin: 10px auto;
+padding: 20px;
+text-align: center;
+text-shadow: 2px 3px 5px rgb(6, 5, 5);
+width: 400px;
+}
+
+section
+{
+ font-size: 20px;
+ font-style:;
+ font-family: cursive;
+
+}
+
+.menu li
+{
+	display: inline-block;
+	line-height: 35px; /*Superior*/
+	list-style: none; /*Decoración */
+	margin: 0 5px;
+}
+.menu li 
+{
+	
+	background-image: -webkit-linear-gradient(
+	 	top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,.1) 100%
+	);
+	border: 2px solid gray;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.65);
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(255,255,255, 0.8);
+	font: bold 18px "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+}
+
+
+.red{
+	background: #b80202;
+}
+.red:hover{
+	background: #e40606;
+}
+.green{
+	background: #46c431;
+}
+.green:hover{
+	background: #44e329;
+}
+.black{
+	background: black;
+}
+.black:hover{
+	background: #eee117;
+}
+.cyan{
+	background: #23c6de;
+}
+.cyan:hover{
+	background: #18d8f4;
+}
+
+.blue{
+	background: #3271d9;
+}
+.blue:hover{
+	background: #377ef2;
+}
