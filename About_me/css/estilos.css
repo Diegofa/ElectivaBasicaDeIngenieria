@@ -1,12 +1,24 @@
-.*
-{display: none;  }
+@font-face{
+	font-family: 'fuentes';
+	src: url('fuente/Fuente.ttf'); 
+}
 
-body{
+
+a* 
+{
+text-decoration: none;
+text-transform: none;
+}
+
+body
+{
 	padding: 5px 15px;
 	background-image:url('../img/deadmau5.gif'), url('../img/onda.png');
 	background-position: top, center;	
 	background-repeat: no-repeat, repeat;
 	color: black;
+	font-family: 'fuentes', 'Verdana', Arial;
+	cursor: url(http://ani.cursors-4u.net/movie/mov-2/mov140.png), pointer;
 }
 
 header {
@@ -22,13 +34,7 @@ text-shadow: 2px 3px 5px rgb(6, 5, 5);
 width: 400px;
 }
 
-section
-{
- font-size: 20px;
- font-style:;
- font-family: cursive;
 
-}
 
 .menu li
 {
@@ -87,4 +93,26 @@ section
 }
 .blue:hover{
 	background: #377ef2;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body 
+    {
+       background: #f3e2c7; /* Old browsers */
+      s background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    body 
+    {
+       background: #cdeb8e; /* Old browsers */
+       background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+
+    }
 }
