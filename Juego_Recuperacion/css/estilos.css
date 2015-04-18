@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100%;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+h1
+{
+	margin-top: 10%;
+	font: bold 90% monospace; 
+	font-size: 2em;
+}
+h2
+{
+	  font: small-caps 100%/200% serif; 
+}
+
+
+
+#Elegir
+	{
+		font-size: 15px;
+		width: 30%;
+		margin-top: 20px;
+		text-align: center; 
+		background-color: cyan; 
+		box-shadow: 10px 10px 30px green;
+	}
+
+#reinicia
+{
+		font-size: 15px;
+		width: 30%;
+		margin-top: 20px;
+		text-align: center; 
+		background-color: cyan; 
+		box-shadow: 10px 10px 30px green;	
+}
+
+* img:hover
+{
+background-color: red;
+} 
+
+
+
