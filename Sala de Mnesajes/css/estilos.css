@@ -1,0 +1,30 @@
+* 
+{
+	margin: 6px;
+	padding: 0;	
+	font: bold 12px Arial, sans-serif;
+}
+h1 
+{	font-size: 20px;
+	font-family: times;
+    color: #BDBDBD;
+}
+body 
+{
+	background-image: url("../imagenes/images.png") ;
+	background-repeat: no-repeat;
+}
+#boton:hover
+{
+	background: gray;
+	box-shadow: #CEF6F5;
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+}
+
+div img {
+  position: absolute;
+  top: 90px; 
+  left: 60px;
+}
